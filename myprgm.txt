@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+int a ,s;
+scanf("%d",&a);
+if(a>18)
+{
+    printf("Eligible for vote");
+}
+else
+{
+    s=18-a;
+    printf("eligible for vote after %d years",s);
+}
+return 0;
+}
+
